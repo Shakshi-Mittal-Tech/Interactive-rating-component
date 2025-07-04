@@ -1,0 +1,120 @@
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+--root {
+    --primary-color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Overpass", sans-serif;
+    color: antiquewhite;
+}
+p {
+    font-size: 15px;
+}
+.card-container {
+    width: 275px;
+    background-image: radial-gradient(circle at top,hsl(210, 23%, 15%)0%, hsl(212, 25%, 12%)100%);
+    padding: 20px;
+    border-radius: 16px;
+}
+.icon {
+    background: hsl(213, 19%, 18%);
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ratings {
+    display: flex;
+    color: hsl(217, 12%, 63%);
+    gap: 16px;
+    padding-bottom: 12px;
+}
+.ratings-num {
+    background: hsl(213, 19%, 18%);
+    height: 42px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ratings-num:hover {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(213, 19%, 18%);
+}
+.ratings-num.active {
+  background-color: hsl(0, 100%, 100%);
+  color: hsl(213, 19%, 18%);
+}
+.rating-heading {
+    color: hsl(0, 100%, 100%);
+}
+
+.rating-para {
+    color: hsl(217, 12%, 63%);
+    font-size: 12px;
+}
+.thank-you-card{
+    width: 300px;
+    background-image: radial-gradient(circle at top,hsl(210, 23%, 15%)0%, hsl(212, 25%, 12%)100%);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+/* submit button */
+button {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 999px;
+    margin-top: 8px;
+    padding: 12px 40px;
+    color: hsl(213, 19%, 18%);
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.thank-you-card img {
+    padding: 15px 78px;
+    width: 8em;
+}
+
+.selected-rating {
+    color:hsl(25, 97%, 53%) ;
+    text-align: center;
+    font-size: 12px;
+    background-color:hsl(213, 19%, 18%);
+    padding: 8px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 160px;
+    margin: 0 auto;
+}
+
+.thanku-heading {
+    color: hsl(0, 100%, 100%);
+    text-align: center;
+}
+
+.thanku-para {
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
