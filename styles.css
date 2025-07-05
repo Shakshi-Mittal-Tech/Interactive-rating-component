@@ -1,10 +1,7 @@
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: .6875rem; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
---root {
-    --primary-color: black;
-}
 body {
     margin: 0;
     padding: 0;
@@ -14,23 +11,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     font-family: "Overpass", sans-serif;
     color: antiquewhite;
 }
 p {
-    font-size: 15px;
+    font-size: .9375rem;
 }
-.card-container {
-    width: 275px;
+.card-container, .thank-you-card {
+    width: 17.1875rem;
     background-image: radial-gradient(circle at top,hsl(210, 23%, 15%)0%, hsl(212, 25%, 12%)100%);
-    padding: 20px;
-    border-radius: 16px;
+    padding: 1.25rem;
+    border-radius: 1rem;
 }
 .icon {
     background: hsl(213, 19%, 18%);
-    height: 36px;
-    width: 36px;
+    height: 2.25rem;
+    width: 2.25rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -39,13 +35,13 @@ p {
 .ratings {
     display: flex;
     color: hsl(217, 12%, 63%);
-    gap: 16px;
-    padding-bottom: 12px;
+    gap: 1rem;
+    padding-bottom: .75rem;
 }
 .ratings-num {
     background: hsl(213, 19%, 18%);
-    height: 42px;
-    width: 50px;
+    height: 2.625rem;
+    width: 3.125rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -53,68 +49,56 @@ p {
     cursor: pointer;
 }
 
-.ratings-num:hover {
+.ratings-num:hover, .ratings-num.active {
     background-color: hsl(0, 100%, 100%);
     color: hsl(213, 19%, 18%);
 }
-.ratings-num.active {
-  background-color: hsl(0, 100%, 100%);
-  color: hsl(213, 19%, 18%);
-}
-.rating-heading {
+.rating-heading, .thanku-heading {
     color: hsl(0, 100%, 100%);
 }
 
-.rating-para {
+.rating-para, .thanku-para {
     color: hsl(217, 12%, 63%);
-    font-size: 12px;
+    font-size: .75rem;
+    text-align: center;
 }
 .thank-you-card{
-    width: 300px;
-    background-image: radial-gradient(circle at top,hsl(210, 23%, 15%)0%, hsl(212, 25%, 12%)100%);
-    padding: 20px;
-    border-radius: 16px;
+    width: 18.75rem;
 }
 
 /* submit button */
 button {
     background-color: hsl(25, 97%, 53%);
     border: none;
-    border-radius: 999px;
-    margin-top: 8px;
-    padding: 12px 40px;
+    border-radius: 62.4375rem;
+    margin-top: .5rem;
+    padding: .75rem 2.5rem;
     color: hsl(213, 19%, 18%);
     font-weight: 700;
     cursor: pointer;
-    letter-spacing: 1px;
+    letter-spacing: .0625rem;
     width: 100%;
 }
 
 .thank-you-card img {
-    padding: 15px 78px;
+    padding: .9375rem 4.875rem;
     width: 8em;
 }
 
 .selected-rating {
     color:hsl(25, 97%, 53%) ;
     text-align: center;
-    font-size: 12px;
+    font-size: .75rem;
     background-color:hsl(213, 19%, 18%);
-    padding: 8px 20px;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    width: 160px;
+    padding: .5rem 1.25rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.3);
+    width: 10rem;
     margin: 0 auto;
 }
 
-.thanku-heading {
-    color: hsl(0, 100%, 100%);
-    text-align: center;
-}
+
 
 .thanku-para {
-    text-align: center;
-    color: hsl(217, 12%, 63%);
-    font-size: 12px;
-    letter-spacing: 0.5px;
+    letter-spacing: .0313rem;
 }
