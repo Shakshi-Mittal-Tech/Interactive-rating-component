@@ -102,3 +102,9 @@ button {
 .thanku-para {
     letter-spacing: .0313rem;
 }
+.thanku-heading {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    text-align: center;
+}
